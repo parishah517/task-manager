@@ -1,0 +1,77 @@
+
+
+.task-container {
+  text-align: center;
+  border: solid 4px rgb(92, 96, 97);
+  max-width: 400px;
+  min-height: 500px;
+  box-shadow: 5px 5px rgb(162, 138, 138);
+  margin: 5% auto;
+  justify-items: center;
+  border-radius:12px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(75, 92, 75);
+  background-color: white;
+}
+.column{
+  flex-direction:column;
+}
+
+.task{
+  border: solid 3px rgb(92, 96, 97);
+  margin: 5%;
+  min-height: 80px;
+  border-radius:12px;
+  box-shadow: 5px 5px rgb(162, 138, 138);
+  padding:2%;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: bold;
+  
+}
+
+.closeBtn{
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  float: right;
+}
+
+.addBtn{
+  border: none;
+  background: rgb(75, 92, 75);
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.addBtn:hover{
+  opacity: 0.7;
+}
+
+.circle:hover{
+  opacity: 0.7;
+  font-size: 1.2 em;
+  color: rgb(201, 143, 143)
+}
+
+.add-container{
+  text-align: center;
+  border: 3px solid rgb(162, 138, 138);
+  height: 150px;
+  margin: 5%;
+  justify-items: center;
+  border-radius:12px;
+  font-weight: bold;
+
+}
+
+.user-input{
+  margin:3%;
+}
+
+.task-display{
+  text-align:center;
+  margin-left: 10%;
+}
