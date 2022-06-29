@@ -3,7 +3,7 @@
 This task manager displays all of the user's current tasks and allows the user to add and delete tasks. 
 My implementation prepopulates the task tracker with tasks to show example usage. 
 
-Initialize project using Creat React App
+Initialize project using Create React App
 
 ## Usage
 
